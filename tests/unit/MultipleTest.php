@@ -6,7 +6,7 @@ final class MultipleTest extends TestCase
 {
 	public function testMultipleOfNoneNumber(): void
 	{
-		$multiple = new App\MultipleOfNone;
+		$multiple = new App\Multiples\MultipleOfNone;
 		$number = 1;
 
 		$result = $multiple->isMultiple($number);
@@ -15,7 +15,7 @@ final class MultipleTest extends TestCase
 
 	public function testMultipleOfThreeNumber(): void
 	{
-		$multiple = new App\MultipleOfThree;
+		$multiple = new App\Multiples\MultipleOfThree;
 		$number = 6;
 
 		$result = $multiple->isMultiple($number);
@@ -24,7 +24,7 @@ final class MultipleTest extends TestCase
 
 	public function testMultipleOfFiveNumber(): void
 	{
-		$multiple = new App\MultipleOfFive;
+		$multiple = new App\Multiples\MultipleOfFive;
 		$number = 5;
 
 		$result = $multiple->isMultiple($number);
@@ -33,7 +33,7 @@ final class MultipleTest extends TestCase
 
 	public function testMultipleOfBothNumber(): void
 	{
-		$multiple = new App\MultipleOfBoth;
+		$multiple = new App\Multiples\MultipleOfBoth;
 		$number = 15;
 
 		$result = $multiple->isMultiple($number);

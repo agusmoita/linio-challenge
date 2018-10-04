@@ -12,10 +12,10 @@ class Converter
 	public function __construct()
 	{
 		$this->multiples = [
-			new MultipleOfBoth,
-			new MultipleOfFive,
-			new MultipleOfThree,
-			new MultipleOfNone
+			new Multiples\MultipleOfBoth,
+			new Multiples\MultipleOfFive,
+			new Multiples\MultipleOfThree,
+			new Multiples\MultipleOfNone
 		];
 	} 
 
